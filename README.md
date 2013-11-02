@@ -7,7 +7,7 @@ How to install
 --------------
 
 Open the `RedditMath.user.js` file and click on the **Raw** button, (or just go
-[here](https://github.com/TheBB/redditmath/raw/master/RedditMath.user.js)].)
+[here](https://github.com/TheBB/redditmath/raw/master/RedditMath.user.js).)
 Greasemonkey will ask you to install it.
 
 Once installed, it should “just work.”
