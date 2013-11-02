@@ -6,7 +6,7 @@ Greasemonkey user script for rendering math on /r/math using MathJax.
 How to install
 --------------
 
-Open the `RedditMath.user.js` file and click on the **Raw** button, (or just go
+Open the `RedditMath.user.js` file and click on the **Raw** button (or just go
 [here](https://github.com/TheBB/redditmath/raw/master/RedditMath.user.js).)
 Greasemonkey will ask you to install it.
 
