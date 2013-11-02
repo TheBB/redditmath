@@ -4,15 +4,15 @@
 // @description Renders LaTeX on /r/math using MathJax.
 // @include     http://reddit.com/r/math/*
 // @include     http://*.reddit.com/r/math/*
-// @version     1
+// @version     1.1
 // @grant       none
 // ==/UserScript==
 
 var pres = document.getElementsByTagName('pre');
 for (var i = 0; i < pres.length; i++)
 {
-    pres[i].innerHTML = pres[i].innerHTML.replace('[;', '[(;');
-    pres[i].innerHTML = pres[i].innerHTML.replace(';]', ';)]');
+    pres[i].innerHTML = pres[i].innerHTML.replace(/\[;/g, '[(;');
+    pres[i].innerHTML = pres[i].innerHTML.replace(/;\]/g, ';)]');
 }
 
 var head = document.getElementsByTagName('head')[0], script;
