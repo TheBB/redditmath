@@ -21,7 +21,7 @@ granted. RedditMath was conceived strictly for my own benefit and has undergone
 little testing.
 
 With that in mind, feel free to submit issues
-([here in this repo](https://github.com/TheBB/redditmath/issues))
+[here in this repo](https://github.com/TheBB/redditmath/issues)
 and I'll have a look as time allows.
 
 **Pull requests are also welcome.**
